@@ -1,0 +1,94 @@
+.client-section {
+    background-color: rgb(31, 46, 53);
+
+    .client-section-wrapper {
+        padding: 0 0 157px 0;
+
+        .client-title-text {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+            .client-title {
+                color: rgb(255, 255, 255);
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 57px;
+                letter-spacing: 0.2px;
+                margin-bottom: 8px;
+            }
+
+            .client-text {
+                width: 537px;
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+
+        .client-cards {
+            display: flex;
+            align-items: center;
+            gap: 64px;
+
+            .client-card {
+                padding: 28px 26px 24px 26px;
+                width: 327px;
+                box-sizing: border-box;
+                border: 1px solid rgb(222, 222, 222);
+                border-radius: 5px;
+                background: rgb(255, 255, 255);
+
+                .client-card-stars {
+                    display: flex;
+                    gap: 3.67px;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+
+        .client-card-text {
+            color: rgb(115, 115, 115);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.2px;
+            text-align: left;
+            margin-bottom: 16px;
+        }
+
+        .client-card-info-wrapper {
+            display: flex;
+            gap: 14px;
+
+            .client-card-name-position {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .client-card-name {
+                    color: rgb(2, 137, 122);
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    text-align: left;
+                }
+
+                .client-card-position {
+                    color: rgb(37, 43, 66);
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

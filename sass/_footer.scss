@@ -1,0 +1,144 @@
+.site-footer {
+    background-color: rgb(31, 46, 53);
+    padding: 0 0 24px 0;
+
+    .footer-wrapper {
+        padding-bottom: 15px;
+        display: flex;
+        gap: 81px;
+
+        .footer-logo-social-list-wrapper {
+            display: flex;
+            gap: 161px;
+
+            .footer-logo-social {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                .footer-logo {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+
+                    a {
+                        text-decoration: none;
+
+                        .footer-logo-text {
+                            color: rgb(255, 255, 255);
+                            font-size: 30px;
+                            font-weight: 700;
+                            line-height: 28px;
+                        }
+                    }
+                }
+
+                .footer-social-list {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+
+                    .footer-social-item {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: rgb(237, 255, 252);
+                        list-style: none;
+
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .footer-list-wrapper {
+                display: flex;
+                align-items: center;
+                gap: 153px;
+
+                .footer-list {
+
+                    .footer-item-title {
+                        color: rgb(255, 255, 255);
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        list-style: none;
+                        margin-bottom: 24px;
+                    }
+
+                    .footer-item {
+                        margin-bottom: 16px;
+                        list-style: none;
+
+                        a {
+                            color: rgb(255, 255, 255);
+                            font-size: 16px;
+                            font-weight: 400;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-form-wrapper {
+
+            .form-title {
+                width: 260px;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                margin-bottom: 34px;
+            }
+
+            form {
+                width: 325px;
+
+                label {
+                    .input-name {
+                        width: 325px;
+                        border: none;
+                        box-sizing: border-box;
+                        border: 1px solid rgb(188, 208, 229);
+                        border-radius: 4px;
+                        background: rgb(255, 255, 255);
+                        padding: 10px 15px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 21px;
+                    }
+
+                    .footer-signup-btn {
+                        width: 131px;
+                        padding: 7px 15px;
+                        color: rgb(255, 255, 255);
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        border-radius: 4px;
+                        border: none;
+                        background: rgb(2, 137, 122);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,125 @@
+.price-section {
+    background-color: rgb(31, 46, 53);
+
+    .price-section-wrapper {
+        padding: 27px 0 150px 0;
+
+        .price-title-text {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 173px;
+
+            .price-title {
+                color: rgb(255, 255, 255);
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 51px;
+                margin-bottom: 8px;
+            }
+
+            .price-text {
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+
+        .price-cards {
+            display: flex;
+            align-items: center;
+            gap: 71px;
+
+            .price-card {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                width: 322px;
+                border-radius: 8px;
+                box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+                background: rgb(255, 255, 255);
+                padding: 24px 70px 32px 70px;
+
+                .card-title {
+                    color: rgb(34, 52, 61);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    margin-bottom: 8px;
+                }
+
+                .card-text {
+                    color: rgb(34, 52, 61);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    margin-bottom: 16px;
+                }
+
+                .price-cost-wrapper {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-bottom: 16px;
+
+                    .price-cost-left {
+                        color: rgb(2, 137, 122);
+                        font-size: 76px;
+                        font-weight: 700;
+                        line-height: 100px;
+                        letter-spacing: 0.2px;
+                    }
+
+                    .price-cost-right {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .price-cost-dollar {
+                            color: rgb(2, 137, 122);
+                            font-size: 24px;
+                            font-weight: 800;
+                            line-height: 30px;
+                            letter-spacing: 0.1px;
+                        }
+
+                        .price-cost-month {
+                            color: rgb(175, 175, 175);
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0.1px;
+                        }
+                    }
+                }
+
+                .price-card-info {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: rgb(34, 52, 61);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    letter-spacing: 0.2px;
+                    margin-bottom: 16px;
+                }
+
+                .price-card-order-btn {
+                    padding: 11px 19px;
+                    border-radius: 8px;
+                    background: rgb(2, 137, 122);
+                    color: rgb(255, 255, 255);
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    margin-top: 38px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

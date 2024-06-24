@@ -1,0 +1,74 @@
+.strategy-section {
+    background-color: rgb(31, 46, 53);
+
+    .strategy-section-wrapper {
+        padding: 150px 0 0 0;
+
+        .strategy-title-text {
+            margin-bottom: 33px;
+
+            .strategy-title {
+                color: rgb(255, 255, 255);
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 51px;
+                margin-bottom: 8px;
+            }
+
+            .strategy-text {
+                color: rgb(255, 255, 255);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+            }
+        }
+
+        .strategy-cards {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: 64px;
+
+            .strategy-card {
+                border-radius: 8px;
+                background-color: white;
+
+                .strategy-content {
+                    padding: 24px 30px 24px 24px;
+
+                    .strategy-card-info {
+                        color: rgb(34, 52, 61);
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 12px;
+                    }
+
+                    .strategy-card-bold {
+                        color: rgb(34, 52, 61);
+                        font-size: 26px;
+                        font-weight: 700;
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+
+        .strategy-circle-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            .strategy-circle {
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: white;
+            }
+
+            .second {
+                background-color: rgb(2, 137, 122);
+            }
+        }
+    }
+}

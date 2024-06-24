@@ -1,0 +1,47 @@
+.company-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(31, 46, 53);
+
+    .company-content {
+        display: flex;
+        gap: 1px;
+        border-radius: 32px;
+        background: rgb(2, 137, 122);
+        margin: 0 0 150px 0;
+
+        .company-content-left {
+            padding: 50px;
+
+            .company-title {
+                width: 490px;
+                color: rgb(255, 255, 255);
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 151.4%;
+                text-align: left;
+                margin-bottom: 45px;
+            }
+
+            .company-get-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 150px;
+                padding: 14px 33px;
+                color: rgb(2, 137, 122);
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                border-radius: 8px;
+                background: rgb(255, 255, 255);
+                text-align: left;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        .company-content-right {}
+    }
+}
